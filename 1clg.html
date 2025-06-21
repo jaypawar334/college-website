@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nimanwada Institute of Technology</title>
+    <link rel="stylesheet" href="1clg.css">
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <link rel="icon" href="logo.webp" type="image/x-icon">
+    
+
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#campus-life">Campus Life</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#album">College Album</a></li>
+                <li><a href="#3d-tour">3D Campus Tour</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home"> 
+        <h1>Welcome to Nimanwada Institute of Technology</h1>
+        <p>Empowering Tomorrow's Innovators.</p>
+        <button onclick="scrollToSection('admissions')">Apply Now</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>NIT is dedicated to providing top-quality education in engineering and technology. We focus on innovation, research, and preparing students for a dynamic future.</p>
+        <p>Established in 1990, NIT has a rich history of academic excellence and a commitment to community engagement.</p>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments">
+        <h2>Our Departments</h2>
+        <ul>
+            <li>Computer Science and Engineering</li>
+            <li>Electrical Engineering</li>
+            <li>Mechanical Engineering</li>
+            <li>Civil Engineering</li>
+            <li>Electronics and Communication Engineering</li>
+            <li>Chemical Engineering</li>
+        </ul>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Join our community of scholars and innovators. Admissions are open for the upcoming academic year.</p>
+        <ul>
+            <li><strong>Undergraduate Programs:</strong> Apply through our online portal or national entrance exams.</li>
+            <li><strong>Postgraduate Programs:</strong> Check eligibility criteria and application deadlines.</li>
+            <li><strong>International Students:</strong> We welcome students from around the globe.</li>
+        </ul>
+        <button onclick="window.location.href='admissions.html'">Learn More</button>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research">
+        <h2>Research at NIT</h2>
+        <p>Our faculty and students are engaged in cutting-edge research across various fields of technology and engineering.</p>
+        <ul>
+            <li>Artificial Intelligence and Machine Learning</li>
+            <li>Renewable Energy Solutions</li>
+            <li>Advanced Materials</li>
+            <li>Biomedical Engineering</li>
+        </ul>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section id="campus-life">
+        <h2>Campus Life</h2>
+        <p>Experience a vibrant campus life at NIT. From cultural festivals to tech symposiums, there's always something happening.</p>
+        <ul>
+            <li>Student Clubs and Organizations</li>
+            <li>Sports and Recreation</li>
+            <li>Hostel Facilities</li>
+            <li>Health and Wellness</li>
+        </ul>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="http://127.0.0.1:5000/submit_form" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <!-- 3D Campus Tour Section -->
+    <section id="3d-tour">
+        <h1>3d-Campus Tour</h1>
+       
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-djQCoNnibuxm735lyzu_GuSj-wZDCRiqlg&s" id="visite" alt="College Map">
+        
+    </section>
+    <div class="photo">
+        <h1> Album</h1>  
+    </div>
+    
+    <section id="album">
+    <div class="collection">
+       <div class="album">
+            <img src="https://cdn.pixabay.com/photo/2024/01/30/12/59/women-8541959_640.jpg" >
+            <p class="deatils"> There are many student to study here.</p>
+       </div>
+            
+        <div class="album">
+              <img src="https://cdn.pixabay.com/photo/2017/08/01/01/28/people-2562626_640.jpg">
+              <p class="deatils"> There are many student to study here.</p>
+        </div>
+    </div>
+            
+    <div class="collection"> 
+            <div class="album">
+
+            <img src="https://cdn.pixabay.com/photo/2016/05/18/11/25/library-1400313_640.jpg">
+            <p class="deatils"> There are many student to study here.</p>
+        </div>
+            
+            
+            <div class="frame">
+
+            <img src="https://cdn.pixabay.com/photo/2012/02/22/20/08/classroom-15593_640.jpg">
+            <p class="deatils"> There are many student to study here.</p>
+        </div>
+    </div>
+            
+            
+         
+    </section>
+    <div class="word ">
+        <b>Our campus</b>
+    </div>
+
+    <!-- Footer -->
+     <div class="footer">
+    <footer>
+        <p>&copy; 2024 Nimanwada Institute of Technology. All rights reserved.</p>
+    </footer>
+     </div>
+
+
+</body>
+</html>
